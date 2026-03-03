@@ -11,10 +11,10 @@ ninja.data = [{
     },
   },{id: "nav-papers",
           title: "papers",
-          description: "A growing collection of your cool projects.",
+          description: "A collection of cool and interesting papers I have read over time",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/papers/";
           },
         },{id: "nav-projects",
           title: "projects",
