@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - curtisjchen
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - curtisjchen/citibike-markov
+  - curtisjchen/queens-game-clone
+  - curtisjchen/nanogpt
+  - curtisjchen/paligemma-rep
+  - curtisjchen/commodity-app

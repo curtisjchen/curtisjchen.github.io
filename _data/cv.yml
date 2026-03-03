@@ -15,7 +15,7 @@ cv:
     street:
     city: Bellevue
     region: Washington
-    postalCode: WA 98005
+    postalCode:
     countryCode: US
 
   sections:
