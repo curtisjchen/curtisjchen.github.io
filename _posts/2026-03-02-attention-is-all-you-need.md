@@ -26,9 +26,11 @@ The paper introduces a transformer encoder and a transformer decoder. The transf
 - Add positional encoding
 - Linearly project embeddings into query, key, and value space.
 - Compute attention weights using dot product of query and key multiplied by value.
-- Add to original word embedding.
+- Add to original word embedding (residual connection).
 - LayerNorm
 - MLP that expands to 4x model size then back to 1x model size.
+- Add to original word embedding (residual connection).
+- LayerNorm
 - Repeat N times. 
 - Goes through language modelling head to classify the probability of the next token.
 - Sample next token from this probability distribution.
