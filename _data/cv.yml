@@ -1,10 +1,9 @@
 cv:
   name: Curtis Chen
   label: Data Analyst
-  email: {firstname}{lastname}jr@gmail.com
+  email: firstname lastname jr@gmail.com
   location: Bellevue, WA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
   social_networks:
     - network: GitHub
