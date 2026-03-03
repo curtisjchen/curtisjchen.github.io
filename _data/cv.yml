@@ -1,14 +1,8 @@
 cv:
-  name: Curtis Chen
+  name: Curtis Jen Chen
   email: firstnamelastnamejr@gmail.com
   location: Bellevue, WA
   image: ""
-
-  social_networks:
-    - network: GitHub
-      username: curtisjchen
-    - network: LinkedIn
-      username: curtisjchen
 
   address:
     street:
@@ -19,7 +13,7 @@ cv:
 
   sections:
     Education:
-      - institution: Cornell University
+      - institution: Cornell Tech
         location: New York, NY
         url: https://www.cornell.edu/
         area: Operations Research and Information Engineering

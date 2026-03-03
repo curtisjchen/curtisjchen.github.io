@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+You can view my code on Github at [curtisjchen](https://github.com/curtisjchen)
+
 <div class="projects">
 {% assign project_posts = site.posts | where_exp: "post", "post.tags contains 'projects'" | sort: "date" | reverse %}
 {% for post in project_posts %}
