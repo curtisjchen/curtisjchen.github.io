@@ -92,13 +92,6 @@ ninja.data = [{
           window.open("https://www.strava.com/athletes/111371507", "_blank");
         },
       },{
-        id: 'social-opgg',
-        title: 'Opgg',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://op.gg/lol/summoners/na/chortis-juice", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
