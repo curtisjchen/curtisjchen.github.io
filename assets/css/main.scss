@@ -37,3 +37,19 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+/* Custom footer social styling */
+.footer-social {
+  margin-top: 4rem;      /* Pushes it away from your text */
+  text-align: center;
+}
+
+.footer-social .contact-icons a i {
+  font-size: 1.5rem !important; /* Adjust this to your preferred size */
+  color: var(--global-text-color);
+  margin: 0 10px;               /* Space between icons */
+}
+
+.footer-social .contact-icons a:hover i {
+  color: var(--global-theme-color); /* Changes color on hover */
+}
