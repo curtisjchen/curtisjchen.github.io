@@ -1,4 +1,12 @@
-<figure class="image-container">
-  <img src="{{ include.url | relative_url }}" alt="{{ include.description }}">
-  <figcaption>{{ include.caption }}</figcaption>
+<figure style="text-align: center; margin: 2em 0;">
+  <a href="{{ include.url | relative_url }}" target="_blank" title="Click to view full size">
+    <img src="{{ include.url | relative_url }}" 
+         alt="{{ include.description }}" 
+         style="max-height: {{ include.height | default: '500px' }}; width: auto; display: inline-block; cursor: zoom-in; border: 1px solid #eee; border-radius: 4px;">
+  </a>
+  {% if include.caption %}
+    <figcaption style="margin-top: 10px; font-style: italic; color: #555; font-size: 0.9em;">
+      {{ include.caption }}
+    </figcaption>
+  {% endif %}
 </figure>

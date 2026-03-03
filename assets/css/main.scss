@@ -45,3 +45,9 @@ figcaption {
   color: #666;
   margin-top: 8px;
 }
+
+figure a img:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
