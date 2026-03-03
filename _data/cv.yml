@@ -49,6 +49,6 @@ cv:
         end_date:
         summary: Data analyst at Costco Wholesale in the sustainability department, responsible for analyzing and interpreting data to drive sustainable business practices.
         highlights:
-          - Calculating the carbon footprint of Costco's operations and identifying areas for improvement.
+          - Calculating the carbon footprint of Costco's supply chain and identifying areas for improvement.
           - Building ML models to label items based on their commodity code and description, which are then used to calculate the carbon footprint of each item.
           - Building data tools to automate manual tasks for the rest of the department.
