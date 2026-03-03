@@ -7,6 +7,8 @@ authors: Vaswani et al., 2017
 description: The paper that introduced the Transformer architecture, replacing RNNs with self-attention.
 ---
 
+{% include image.html url="/assets/img/transformers.webp" description="Transformer Architecture" caption="Full Transformer." %}
+
 ## Summary
 
 The paper introduces the transformer architecture as a solution for machine translation problems, e.g converting english to german and so on. The paper is named "Attention is All You Need" because recurrent neural networks, which had been the popular architecture for sequence to sequence tasks, introduced the idea of attention to bypass propagating signals by having hidden states attend to other hidden states through a residual connection. Recurrent networks were hard to train due to their sequential nature, which meant it was difficult to parallelize, and vanishing and exploding gradients as the network got deeper. 
@@ -27,10 +29,10 @@ The paper introduces a transformer encoder and a transformer decoder. The transf
 - Goes through language modelling head to classify the probability of the next token.
 - Sample next token from this probability distribution.
 
-* Simplified ideas of encoder and decoder, they operate similarly but slightly different.
+Simplified ideas of encoder and decoder, they operate similarly but slightly different.
 
-- Removes recurrency
-- Very efficient parallelization even though attention is $O(N^2)$
+- Removes recurrency of LSTMs
+- Efficient matrix operations makes it scalable even though attention is $O(N^2)$
 
 ## My Thoughts
 
