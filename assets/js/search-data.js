@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-papers",
-          title: "papers",
-          description: "A collection of cool and interesting papers I have read over time",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/papers/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "A collection of projects I have done over time",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-papers",
+          title: "papers",
+          description: "A collection of cool and interesting papers I have read over time",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/papers/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -64,20 +64,6 @@ ninja.data = [{
           
         },
       },{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/Curtis_Chen_Resume.pdf", "_blank");
-        },
-      },{
-        id: 'social-strava',
-        title: 'Strava',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.strava.com/athletes/111371507", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -92,8 +78,15 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/curtisjchen", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-strava',
+        title: 'Strava',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.strava.com/athletes/111371507", "_blank");
+        },
+      },{
+        id: 'social-opgg',
+        title: 'Opgg',
         section: 'Socials',
         handler: () => {
           window.open("https://op.gg/lol/summoners/na/chortis-juice", "_blank");
