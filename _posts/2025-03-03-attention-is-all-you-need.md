@@ -8,14 +8,18 @@ description: The paper that introduced the Transformer architecture, replacing R
 ---
 
 ## Summary
+
 A brief summary of what the paper is about...
 
 ## Key Ideas
+
 - Key idea 1
 - Key idea 2
 
 ## My Thoughts
+
 What I found interesting, surprising, or useful...
 
 ## Links
+
 - [Paper](https://arxiv.org/abs/1706.03762)
