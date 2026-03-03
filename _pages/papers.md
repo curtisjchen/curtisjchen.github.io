@@ -1,8 +1,8 @@
 ---
 layout: page
 title: papers
-permalink: /projects/
-description: A growing collection of your cool projects.
+permalink: /papers/
+description: A collection of cool and interesting papers I have read over time
 nav: true
 nav_order: 3
 display_categories: [work, fun]
