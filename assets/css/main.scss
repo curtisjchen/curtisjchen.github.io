@@ -37,3 +37,11 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #666;
+  margin-top: 8px;
+}
