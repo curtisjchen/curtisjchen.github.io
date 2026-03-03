@@ -29,6 +29,6 @@ latest_posts:
 
 Hi! My name is Curtis and I'm a data analyst at Costco Wholesale, living in Bellevue, Washington. I received my Master's degree in Operations Research and Information Engineering from Cornell University (Cornell Tech campus), where my coursework focused on statistics and deep learning. Before Cornell, I studied Physics at University College London.
 
-In my free time, I like to play sports ( run, basketball, tennis, golf, ski ), play video games ( league of legends :( ), and try new bakeries or cafes around town! 
+In my free time, I like to play sports ( run, basketball, tennis, golf, ski ), play video games ( league of legends :( ), and try new bakeries or cafes around town!
 
 I also like to keep up to date with machine learning research. You can browse some papers that I enjoyed reading, [here](../_notmypapers).
