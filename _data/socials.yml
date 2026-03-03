@@ -2,10 +2,10 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/Curtis_Chen_Resume.pdf # path to your CV PDF file
-strava_userid: 111371507  
 github_username: curtisjchen
 linkedin_username: curtisjchen
-custom_social:
-  logo: https://play-lh.googleusercontent.com/FeRWKSHpYNEW21xZCQ-Y4AkKAaKVqLIy__PxmiE_kGN1uRh7eiB87ZFlp3j1DRp9r8k
+strava_userid: 111371507  
+opgg: # Use a unique name here
+  logo: ../assets/img/opgg_icon.webp # Path to a local image or valid URL
   title: op.gg
   url: https://op.gg/lol/summoners/na/chortis-juice
