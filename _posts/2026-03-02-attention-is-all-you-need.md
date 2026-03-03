@@ -7,7 +7,7 @@ authors: Vaswani et al., 2017
 description: The paper that introduced the Transformer architecture, replacing RNNs with self-attention.
 ---
 
-{% include image.html url="/assets/img/transformers.webp" description="Transformer Architecture" caption="Full Transformer." %}
+{% include image.html url="/assets/img/posts/transformers.webp" description="Transformer Architecture" caption="Full Transformer." %}
 
 ## Summary
 
