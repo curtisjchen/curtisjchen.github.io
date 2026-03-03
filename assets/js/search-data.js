@@ -56,7 +56,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/attention-is-all-you-need/";
+            window.location.href = "/blog/2026/attention-is-all-you-need/";
           
         },
       },{
