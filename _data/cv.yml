@@ -12,7 +12,7 @@ cv:
       username: curtisjchen
 
   address:
-    street: 
+    street:
     city: Bellevue
     region: Washington
     postalCode: WA 98005
@@ -28,10 +28,9 @@ cv:
         start_date: 2022
         end_date: 2023
         score: ""
-        courses: "Theory of Relativity"
+        courses: "Deep Learning, Machine Learning, Statistics, Optimization"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Graduated with a GPA of 3.9/4.0.
 
       - institution: University College London
         location: London, UK
@@ -40,16 +39,16 @@ cv:
         start_date: 2019
         end_date: 2022
         highlights:
-          - Description 1.
-          - Description 2.
+          - Graduated with First Class Honours.
+          
 
     Experience:
       - company: Costco Wholesale
         position: Data Analyst
         location: Issaquah, WA
         start_date: 2025
-        end_date: 
-        summary: Data analyst at Costco Wholesale in the sustainability department, responsible for analyzing and interpreting data to drive sustainable business practices. 
+        end_date:
+        summary: Data analyst at Costco Wholesale in the sustainability department, responsible for analyzing and interpreting data to drive sustainable business practices.
         highlights:
           - Calculating the carbon footprint of Costco's operations and identifying areas for improvement.
           - Building ML models to label items based on their commodity code and description, which are then used to calculate the carbon footprint of each item.
