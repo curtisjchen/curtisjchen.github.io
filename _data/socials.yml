@@ -5,6 +5,6 @@ github_username: curtisjchen
 linkedin_username: curtisjchen
 strava_userid: 111371507
 opgg: # Use a unique name here
-  logo: /assets/img/opgg_icon.png # Path to a local image or valid URL
+  logo: https://curtisjchen.github.io/assets/img/opgg_icon.png # Path to a local image or valid URL
   title: op.gg
   url: https://op.gg/lol/summoners/na/chortis-juice

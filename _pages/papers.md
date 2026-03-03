@@ -4,7 +4,7 @@ title: papers
 permalink: /papers/
 description: A collection of cool and interesting papers I have read over time
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <div class="papers">

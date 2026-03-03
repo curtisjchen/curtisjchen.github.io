@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A collection of projects I have done over time
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 <div class="projects">
