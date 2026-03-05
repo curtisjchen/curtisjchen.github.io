@@ -7,11 +7,6 @@ description: Recreating LinkedIn's Queens Game
 ---
 
 ## Overview
-{% include image.html 
-   url="https://miro.medium.com/v2/1*gG7N6hmv6oyCSkKnDhVNWQ.png" 
-   description="Queens Game" 
-   caption="LinkedIn's Queens Game" 
-   height="50vh" %}
 
 LinkedIn's Queens is one of my favorite puzzle games that I play almost everyday. The idea is we can only place one queen in each row and column, and no queen can be touching, even diagonally. So it's not quite the same as a queen in chess but similar.
 
