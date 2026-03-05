@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Queens Game"
+date: 2026-03-03
+tags: [projects]
+description: Recreating LinkedIn's Queens Game 
+---
+
+## Overview
+{% include image.html 
+   url="https://miro.medium.com/v2/1*gG7N6hmv6oyCSkKnDhVNWQ.png" 
+   description="Queens Game" 
+   caption="LinkedIn's Queens Game" 
+   height="50vh" %}
+
+LinkedIn's Queens is one of my favorite puzzle games that I play almost everyday. The idea is we can only place one queen in each row and column, and no queen can be touching, even diagonally. So it's not quite the same as a queen in chess but similar.
+
+## Tech Stack
+- Python, NumPy, FastAPI, TypeScript, React
+
+## Design
+The backend uses Python, NumPy, and FastAPI. The main idea is that we can generate all the unique positions of the queens given the constraints, and then we can generate the regions around it. This problem is solvable, relatively easy and is similar to N-Queens on Leetcode. The harder problem is generating regions that result in a unique game, where there is only one solution. I haven't been able to design an optimized solution so it can be an extension for another project. The current algorithm doesn't guarantee a unique solution which might be frustrating to play.
+
+The frontend uses TypeScript and React. The user can generate a new 8x8 - 11x11 puzzle on demand. There is also a toolbar that allows the user to change some settings like "auto-x" which places "x"s around a queen that has been placed by the user to cross out positions blocked by the queen. The user can also reset the board and undo their actions, which are tracked by the game's history. 
+
+## Links
+- [GitHub](https://github.com/curtisjchen/queens-game-clone)

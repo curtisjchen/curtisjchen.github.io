@@ -32,7 +32,7 @@ The paper introduces a transformer encoder and a transformer decoder. The transf
 - Add to original word embedding (residual connection).
 - LayerNorm
 - Repeat N times. 
-- Goes through language modelling head to classify the probability of the next token.
+- Language modelling head to classify the probability of the next token.
 - Sample next token from this probability distribution.
 
 Simplified ideas of encoder and decoder, they operate similarly but slightly different.
@@ -42,7 +42,7 @@ Simplified ideas of encoder and decoder, they operate similarly but slightly dif
 
 ## My Thoughts
 
-I like how it is relatively simple. It does not seem like an overengineered architecture where there are unnecessary or overcomplex components. Everything serves a purpose.
+I like how it is relatively simple. It does not seem like an over-engineered architecture where there are unnecessary components. Everything serves a purpose, but it can be optimized as seen further on with the evolution of the architecture.
 
 ## Links
 
