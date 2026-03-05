@@ -20,6 +20,13 @@ LinkedIn's Queens is one of my favorite puzzle games that I play almost everyday
 - Python, NumPy, FastAPI, TypeScript, React
 
 ## Design
+
+{% include image.html 
+   url="/assets/img/posts/queens.png" 
+   description="Queens Game" 
+   caption="My Queens Game Clone" 
+   height="50vh" %}
+
 The backend uses Python, NumPy, and FastAPI. The main idea is that we can generate all the unique positions of the queens given the constraints, and then we can generate the regions around it. This problem is solvable, relatively easy and is similar to N-Queens on Leetcode. The harder problem is generating regions that result in a unique game, where there is only one solution. I haven't been able to design an optimized solution so it can be an extension for another project. The current algorithm doesn't guarantee a unique solution which might be frustrating to play.
 
 The frontend uses TypeScript and React. The user can generate a new 8x8 - 11x11 puzzle on demand. There is also a toolbar that allows the user to change some settings like "auto-x" which places "x"s around a queen that has been placed by the user to cross out positions blocked by the queen. The user can also reset the board and undo their actions, which are tracked by the game's history. 
