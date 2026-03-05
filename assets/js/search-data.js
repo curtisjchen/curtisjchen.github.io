@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/misc/";
           },
-        },{id: "post-markovian-bikes",
+        },{id: "post-queens-game",
+        
+          title: "Queens Game",
+        
+        description: "Recreating LinkedIn&#39;s Queens Game",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/queens-game/";
+          
+        },
+      },{id: "post-markovian-bikes",
         
           title: "Markovian Bikes",
         
