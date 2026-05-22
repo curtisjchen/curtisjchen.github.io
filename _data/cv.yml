@@ -22,8 +22,6 @@ cv:
         end_date: 2023
         score: ""
         courses: "Deep Learning, Machine Learning, Statistics, Optimization"
-        highlights:
-          - Graduated with a GPA of 3.9/4.0.
 
       - institution: University College London
         location: London, UK
@@ -32,8 +30,6 @@ cv:
         studyType: Bachelor's Degree
         start_date: 2019
         end_date: 2022
-        highlights:
-          - Graduated with First Class Honours.
 
     Experience:
       - company: Costco Wholesale
@@ -41,7 +37,7 @@ cv:
         location: Issaquah, WA
         start_date: 2025
         end_date:
-        summary: Data analyst at Costco Wholesale in the sustainability department, responsible for analyzing and interpreting data in our supply chain to drive sustainable business practices.
+        summary: Data analyst at Costco Wholesale in the sustainability department, responsible for analyzing and interpreting data in Costco's supply chain to drive sustainable business practices.
         highlights:
           - Calculating the carbon footprint of Costco's supply chain and identifying areas for improvement.
           - Building ML models to label items based on their commodity code and description, which are then used to calculate the carbon footprint of each item.
