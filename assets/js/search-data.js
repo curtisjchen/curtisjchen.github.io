@@ -52,7 +52,7 @@ ninja.data = [{
         
           title: "Markovian Bikes",
         
-        description: "Modeling Citibike bike movement using Markov chains.",
+        description: "Modeling Citibike Station Markov transition probabilities and stationary distributions through data.",
         section: "Posts",
         handler: () => {
           
