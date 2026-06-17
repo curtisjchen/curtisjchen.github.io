@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/misc/";
           },
-        },{id: "post-queens-game",
+        },{id: "post-towards-monosemanticity-decomposing-language-models-with-dictionary-learning",
+        
+          title: "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+        
+        description: "Using sparse autoencoders to learn monosemantic features of activations of a one-layer transformer.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/anthropic-monosemanticity/";
+          
+        },
+      },{id: "post-queens-game",
         
           title: "Queens Game",
         
