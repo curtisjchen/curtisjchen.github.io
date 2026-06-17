@@ -8,9 +8,9 @@ description: Using sparse autoencoders to learn monosemantic features of activat
 ---
 
 {% include image.html 
-   url="/assets/img/posts/transformers.webp" 
-   description="Transformer Architecture" 
-   caption="Full Transformer." 
+   url="/assets/img/posts/superposition.png" 
+   description="Superposition in Neural Networks" 
+   caption="Superposition in Neural Networks." 
    height="50vh" %}
 
 ## Summary
